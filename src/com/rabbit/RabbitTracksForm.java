@@ -24,6 +24,8 @@ public class RabbitTracksForm {
     private JPanel CalendarTab;
     private JPanel ReportingTab;
     private JPanel LitterDataTab;
+    private JPanel HomeTab;
+    private JLabel RabbitTracksIconLabel;
 
     public static void main(String[] args) {
         JFrame frame = new JFrame("RabbitTracksForm");
@@ -31,6 +33,12 @@ public class RabbitTracksForm {
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.pack();
         frame.setVisible(true);
+    }
+
+    private void createUIComponents() {
+        // TODO: place custom component creation code here
+        RabbitTracksIconLabel = new JLabel();
+        RabbitTracksIconLabel.setIcon(new ImageIcon("RabbitTracksIcon.PNG"));
     }
 }
 
