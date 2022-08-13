@@ -20,6 +20,10 @@ public class RabbitTracksForm {
     private JTextField textField5;
     private JButton cancelButton;
     private JButton OKButton;
+    private JPanel EnterHarvestTab;
+    private JPanel CalendarTab;
+    private JPanel ReportingTab;
+    private JPanel LitterDataTab;
 
     public static void main(String[] args) {
         JFrame frame = new JFrame("RabbitTracksForm");

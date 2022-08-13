@@ -1,0 +1,41 @@
+Have tabbed panes:
+	1.  Enter Rabbit
+		    Enter details such as: name, birthday, breed, sex, color pattern, notes
+	
+	2.  Enter Litter
+		    Enter total kits, unharvested kits (this will also be updated via enter harvest tab), birthdate, notes
+		    AutoGenerate litter name
+	
+	3.  Enter Harvest
+	        Enter littername to match up to previously entered litter
+	        (check for match, if no match, prompt if sure you want to enter it)
+
+	        Enter overall litter harvest info - dam, sire, harvest date
+
+            Enter individual kit sizes, colors, harvestability at harvest time, notes
+
+	
+	4.  Rabbit Stock
+		    Browse breedable rabbits (current and retired)
+
+    5.  Litter Data
+            Browse litter data (current and past) - show all stats including auto generated fields
+            such as litter name, etc.
+	
+	6.  Breeding Stats
+		    Generate and visualize breeding stats (graphs / tables)
+		    Use to determine best ratios for breeding cycles
+	
+	7.  Harvest Stats
+		    Generate and visualize harvest stats (graphs / tables)
+		    Use to determine best ratios for feed, time to harvest
+
+	8.  Calendar
+		    Be able to see all stats in calendar view, such as:
+			    previous breeding, birth, harvest dates
+			    planned breeding, birth, harvest dates
+
+    9.  Reporting
+            Generate pdf reports.
+
+Utilize sqlite db for saving and retrieving data

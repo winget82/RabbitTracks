@@ -1,19 +1,23 @@
 package com.rabbit;
 
+import java.sql.Date;
+
 public class Rabbit {
     private String name;
-    private int age;
+    private Date birthDate;
+    private String breed;
     private String colorPattern;
     private int totalLitters;
     private boolean male;
     private BreedingNote[] breedingNotes;
     private Litter[] litters;
 
-    public Rabbit(String name, int age, String colorPattern, int totalLitters) {
+    public Rabbit(String name, Date birthDate, String colorPattern, int totalLitters, String breed) {
         this.name = name;
-        this.age = age;
+        this.birthDate = birthDate;
         this.colorPattern = colorPattern;
         this.totalLitters = totalLitters;
+        this.breed = breed;
     }
 
     public String getName() {
@@ -24,12 +28,12 @@ public class Rabbit {
         this.name = name;
     }
 
-    public int getAge() {
-        return age;
+    public Date getBirthDate() {
+        return birthDate;
     }
 
-    public void setAge(int age) {
-        this.age = age;
+    public void setBirthDate(Date birthDate) {
+        this.birthDate = birthDate;
     }
 
     public String getColorPattern() {
@@ -70,5 +74,13 @@ public class Rabbit {
 
     public void setLitters(Litter[] litters) {
         this.litters = litters;
+    }
+
+    public String getBreed() {
+        return breed;
+    }
+
+    public void setBreed(String breed) {
+        this.breed = breed;
     }
 }

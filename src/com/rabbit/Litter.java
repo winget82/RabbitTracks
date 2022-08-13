@@ -5,6 +5,7 @@ public class Litter {
     private int totalKits;
     private int totalHarvestedKits;
     private int totalUnharvestableKits;
+    private double feedPerKit;
     private String litterNotes;
     private Kit[] kits;
 
@@ -64,6 +65,14 @@ public class Litter {
 
     public void setKits(Kit[] kits) {
         this.kits = kits;
+    }
+
+    public double getFeedPerKit() {
+        return feedPerKit;
+    }
+
+    public void setFeedPerKit(double feedPerKit) {
+        this.feedPerKit = feedPerKit;
     }
 
     //can get birthdate, dam, and sire via kit
