@@ -40,6 +40,6 @@ Have tabbed panes:
 			    planned breeding, birth, harvest dates
 
     10.  Reporting
-            Generate pdf reports.
+            Generate pdf reports to count costs and efficiencies
 
 Utilize sqlite db for saving and retrieving data

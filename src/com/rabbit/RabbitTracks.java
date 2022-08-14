@@ -2,7 +2,7 @@ package com.rabbit;
 
 import javax.swing.*;
 
-public class RabbitTracksForm {
+public class RabbitTracks {
     private JTabbedPane RabbitTrakcsTabbedPane;
     private JPanel MainPanel;
     private JPanel EnterRabbitTab;
@@ -26,10 +26,13 @@ public class RabbitTracksForm {
     private JPanel LitterDataTab;
     private JPanel HomeTab;
     private JLabel RabbitTracksIconLabel;
+    private JPanel RabbitCalendarPanel;
+    private JPanel CalendarDetailsPanel;
+    private JLabel CalendarDetailsLabel;
 
     public static void main(String[] args) {
-        JFrame frame = new JFrame("RabbitTracksForm");
-        frame.setContentPane(new RabbitTracksForm().MainPanel);
+        JFrame frame = new JFrame("Rabbit Tracks");
+        frame.setContentPane(new RabbitTracks().MainPanel);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.pack();
         frame.setVisible(true);
@@ -39,6 +42,7 @@ public class RabbitTracksForm {
         // TODO: place custom component creation code here
         RabbitTracksIconLabel = new JLabel();
         RabbitTracksIconLabel.setIcon(new ImageIcon("RabbitTracksIcon.PNG"));
+        RabbitCalendarPanel = new Cal();
     }
 }
 
